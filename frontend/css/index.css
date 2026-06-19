@@ -1,3 +1,20 @@
 h1 {
     color : red;
 }
+
+#head2 { /* only applied to specific id*/
+    color : blue;
+}
+
+.heading { /* applied to all elements with class heading */
+    color : orange;
+}
+
+.para {
+    border : 2px; /*size */
+    border-style : solid; /*type of border(default = hidden) */
+    border-color : black; /*color of border */
+    padding : 10px; /*space between content and border */
+    text-align : center; /*align text to center */
+    /* margin : 20px; space between border and other elements */
+}
