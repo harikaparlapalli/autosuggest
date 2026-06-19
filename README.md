@@ -1,11 +1,13 @@
 # autosuggest
 
 To verify my git setup
+
+**UI:**
 1. add(plus button)
 2. commit with message
 3. push / sync
 
-commands:
-git add -A
-gti commit -m "message"
-git push
+**commands:**
+1. git add -A
+2. git commit -m "message"
+3. git push
