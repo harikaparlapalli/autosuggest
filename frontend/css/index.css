@@ -16,5 +16,29 @@ h1 {
     border-color : black; /*color of border */
     padding : 10px; /*space between content and border */
     text-align : center; /*align text to center */
-    /* margin : 20px; space between border and other elements */
+}
+
+.navbar { /* applied to all elements with class navbar */
+    border : 3px;
+    border-style : solid;
+    border-color : black;
+    padding : 10px;
+    background-color : brown;
+    text-align : center;
+    
+}
+
+.navbar a { /* applied to all anchor tags inside navbar */
+    color : aquamarine;
+    padding : 15px;
+    text-decoration : none; /*removes underline from anchor tags */
+}
+
+.navbar a:hover { /*applied to anchor tags inside navbar when hovered(when cursor moves near) */
+    background-color : rgb(213, 56, 56);
+    color : white;
+}
+
+body {
+    margin : 0; /*removes default margin from body */
 }
