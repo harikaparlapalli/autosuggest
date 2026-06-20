@@ -42,3 +42,16 @@ h1 {
 body {
     margin : 0; /*removes default margin from body */
 }
+
+.card {
+    border : 2px solid black;
+    width : 300px;
+    text-align : center;
+    margin-top : 20px; /*space between top of card and element above it */
+    margin-left : auto; /*automatically adjust left margin to center card */
+    margin-right : auto; /*automatically adjust right margin to center card */
+}
+
+.card img {
+    width : 100%; /*makes image take full width of card */
+}
