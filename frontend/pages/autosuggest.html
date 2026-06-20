@@ -8,12 +8,17 @@
 </head>
 <body>
     <span class="gear">&#x2699;</span> <!--for adding icons-->
-    <span class="pill">&#x2022; online | &#x23F0; - ms</span>
-    <h1> AutoSuggest </h1>
-    <p> One million phrases. Four algorithms. Prefix Based Auto Suggest.</p>
-    <div>
-        <span>&#x1F50D;</span>
-        <input type="text" placeholder="Start typing to search phrases"></p>
+    <span class="pill"><span class="bullet">&#x2022;</span> online | &#x23F0; - ms</span> <!-- doesn't move to the next line like div -->
+    <div class="content">
+        <h1><span class="title">Auto</span>Suggest</h1>
+        <p class="tagline"> One million phrases. Four algorithms. Prefix Based Auto Suggest.</p>
+        <div>
+            <span class="lens">&#x1F50D;</span>
+            <input type="text" class="search-box" placeholder="Start typing to search phrases"></p>
+            <div id="search-suggestions"> <!-- shortcut = #search-suggestions-->
+                
+            </div>
+        </div>
     </div>
     </body>
 </html>

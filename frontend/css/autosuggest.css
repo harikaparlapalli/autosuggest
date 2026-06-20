@@ -1,3 +1,45 @@
-#bar {
-    text-align : right;
+.content {
+    text-align : center;
 }
+
+.pill {
+    position : fixed; /* to make it stay in the same position even when scrolling*/
+    top: 10px;
+    right : 10px;
+}
+
+.gear {
+    position : fixed; /* to make it stay in the same position even when scrolling*/
+    top: 10px;
+    left : 10px;
+}
+
+.bullet {
+    color : green;
+}
+
+.title {
+    color : red;
+}
+
+.tagline {
+    color : grey;
+}
+
+.lens {
+    position: relative;
+    left : 31px;
+    top: 1px;
+    /* right : 20px; */
+}
+
+.search-box {
+    border-radius: 25px;
+    padding-left: 30px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom:15px;
+}
+
+
+
