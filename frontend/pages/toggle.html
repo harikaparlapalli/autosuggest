@@ -5,20 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Auto Suggest</title> <!--This is the title of the webpage that appears in the browser tab--> 
     <link rel="stylesheet" href="css/index.css"> <!--To link CSS file-->
-    <link rel="stylesheet" href="../css/index.css"> <!--2 dots for going outisde the current folder-->
+    <link rel="stylesheet" href="../css/index.css"> <!--2 dots for going outside the current folder-->
 </head>
 <body>
     <div class="navbar">  <!--navigation bar that contains links to different sections of the website-->
         <a href="/">Home</a>
         <a href="/pages/card.html">Card</a>
-        <a href="">Toggle</a>
+        <a href="/pages/toggle.html">Toggle</a>
         <a href="">Random users</a>
     </div>
     <div class="card">
-        <img src="../images/john.png" alt="User image">
-        <h2> John Doe </h2>
-        <p>Male</p>
+        <img id="user-img" src="../images/john.png" alt="User image">
+        <h2 id="user-name"> John Doe </h2>
+        <p id="user-gender">Male</p>
+        <button onclick="toggle()"> Toggle </button> <!-- onclick is an event listener for calling function-->
     </div>
     <script src="js/index.js"></script> <!--To link JS file-->
+    <script src="../js/toggle.js"></script>
 </body>
 </html>
