@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Auto Suggest</title> <!--This is the title of the webpage that appears in the browser tab--> 
     <link rel="stylesheet" href="css/index.css"> <!--To link CSS file-->
+    <link rel="stylesheet" href="../css/index.css"> <!--2 dots for going outside the current folder-->
 </head>
 <body>
     <div class="navbar">  <!--navigation bar that contains links to different sections of the website-->
@@ -13,18 +14,14 @@
         <a href="/pages/toggle.html">Toggle</a>
         <a href="/pages/randomuser.html">Random users</a>
     </div>
-    <h1> Hello from HTML! </h1>
-    <h2 id="head2"> Heading 2 </h2>
-    <h3 class="heading"> Heading 3 </h3>
-    <h4 class="heading"> Heading 4 </h4>
-    <h5 class="heading"> Heading 5 </h5>
-    <h6> Heading 6 </h6>
-    <h1> Hello from HTML again! </h1>
-    <p class="para"> This is a paragraph. </p>
-    <p>Lorem ipsum dolor sit amet.</p> <!-- shortcut = lorem5 -->
-    
-    <!--This is a hyperlink(anchor tag) that directs to the specified URL when clicked-->
-    <a href="https://mentorpick.com/coursev2/my-courses">Mentorpick</a> 
+    <div class="card">
+        <img id="user-img" src="../images/john.png" alt="User image">
+        <h2 id="user-name"> John Doe </h2>
+        <p id="user-gender">Male</p>
+        <button onclick="randomuser()"> Random User </button> <!-- onclick is an event listener for calling function-->
+    </div>
     <script src="js/index.js"></script> <!--To link JS file-->
+    <script src="../js/randomuser.js"></script>
+    
 </body>
 </html>
